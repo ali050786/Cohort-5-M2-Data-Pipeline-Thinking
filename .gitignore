@@ -13,3 +13,13 @@ airflow.db
 .astro/*.local.yml
 .astro/*.local.yaml
 test_api.py 
+
+# --- Sikandar's NammaMart assignment ---
+include/tmp/
+include/data/experiments/
+include/experiments_sikandar/wh/
+include/warehouse_sikandar.duckdb*
+include/quarantine/sikandar/*
+!include/quarantine/sikandar/orders_failed_exp03_increment.csv
+!include/quarantine/sikandar/payments_failed_exp03_increment.csv
+!include/quarantine/sikandar/products_failed_exp03_increment.csv
